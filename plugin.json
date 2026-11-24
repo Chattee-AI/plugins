@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "chattee",
+  "version": "1.1.0",
+  "description": "Build, deploy and publish full web apps on Chattee from your AI assistant: the Chattee MCP server, signed in with OAuth, and the Chattee skill.",
+  "author": {
+    "name": "Chattee",
+    "url": "https://chattee.ai"
+  },
+  "homepage": "https://chattee.ai/mcp",
+  "repository": "https://github.com/chattee-ai/plugins",
+  "license": "MIT",
+  "keywords": ["chattee", "mcp", "app-builder", "web-apps", "deploy", "hosting", "agent-skills", "full-stack"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Chattee",
+        "shortDescription": "Build and publish web apps",
+        "longDescription": "Chattee MCP server is a remote Model Context Protocol server that lets AI assistants such as Claude Code, Claude.ai, Cursor, Codex and ChatGPT create, change, deploy and publish full web apps on Chattee.\n\nDescribe an app in your own words. Chattee plans it, your assistant shows you the whole plan, and a new app is built from that plan once you approve it. A small change you ask for can go straight in. A build takes 5–90 minutes: your assistant follows it, relays questions and hands you the Draft preview. The app goes to its Live URL when you ask.\n\nWhat it builds: websites, web apps and installable mobile web apps, with a React front end, a Node back end where one is needed, a managed Postgres database, sign-in, file storage and email, deployed and hosted on chattee.ai.\n\nYour assistant can also change an existing app, read its files and logs, set environment variables, add managed resources, run read-only database queries, start from templates and restore an earlier release.\n\nYour decisions stay yours: approving plans, publishing and raising a run's credit limit. A run that reaches its limit pauses, and its limit goes up only to a total you name. Nothing on the server buys anything.\n\nYou need a Chattee account, and builds use that account's credits. You sign in with OAuth, review the permissions on Chattee's consent page and can revoke the connection at any time. Chattee builds and hosts its own projects; it does not edit the repository you are working in.",
+        "developerName": "Anwendo GmbH",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Plan and build web apps",
+          "Change existing Chattee apps",
+          "Publish apps to a Live URL"
+        ],
+        "websiteURL": "https://chattee.ai/mcp",
+        "supportURL": "https://chattee.ai/p/contact",
+        "privacyPolicyURL": "https://chattee.ai/p/privacy-policy",
+        "termsOfServiceURL": "https://chattee.ai/p/terms",
+        "defaultPrompt": [
+          "Build a booking page for my yoga studio on Chattee and show me the plan before you approve it.",
+          "Change the headline on the home page of my Chattee project to \"Fresh every morning\".",
+          "What would go live if I published my Chattee project now?"
+        ],
+        "brandColor": "#153B45",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

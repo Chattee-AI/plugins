@@ -1,0 +1,12 @@
+{
+  "name": "chattee",
+  "version": "1.1.0",
+  "description": "Build, deploy and publish full web apps on Chattee from your AI assistant: the Chattee MCP server, signed in with OAuth, and the Chattee skill.",
+  "mcpServers": {
+    "chattee": {
+      "type": "http",
+      "url": "https://chattee.ai/mcp/connect"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

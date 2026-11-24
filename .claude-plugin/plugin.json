@@ -1,0 +1,19 @@
+{
+  "name": "chattee",
+  "displayName": "Chattee",
+  "version": "1.1.0",
+  "description": "Build, deploy and publish full web apps on Chattee from Claude Code: the Chattee MCP server (signs in with OAuth), the Chattee skill, and /chattee:build, /chattee:status and /chattee:publish.",
+  "author": {
+    "name": "Chattee",
+    "url": "https://chattee.ai"
+  },
+  "homepage": "https://chattee.ai/mcp",
+  "repository": "https://github.com/chattee-ai/plugins",
+  "license": "MIT",
+  "keywords": ["chattee", "mcp", "app-builder", "web-apps", "deploy", "hosting", "agent-skills", "full-stack"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://chattee.ai/docs/mcp",
+  "supportUrl": "https://chattee.ai/p/contact",
+  "privacyPolicyUrl": "https://chattee.ai/p/privacy-policy",
+  "termsOfServiceUrl": "https://chattee.ai/p/terms"
+}

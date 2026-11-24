@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "chattee",
+  "displayName": "Chattee",
+  "version": "1.1.0",
+  "description": "Build, deploy and publish full web apps on Chattee from your AI assistant: the Chattee MCP server, signed in with OAuth, and the Chattee skill.",
+  "logo": "assets/icon.png",
+  "suggestedPrompts": [
+    "Build a booking page for my yoga studio on Chattee and show me the plan before you approve it.",
+    "Change the headline on the home page of my Chattee project to \"Fresh every morning\".",
+    "What would go live if I published my Chattee project now?"
+  ],
+  "author": {
+    "name": "Chattee",
+    "url": "https://chattee.ai"
+  },
+  "homepage": "https://chattee.ai/mcp",
+  "repository": "https://github.com/chattee-ai/plugins",
+  "license": "MIT",
+  "keywords": ["chattee", "mcp", "app-builder", "web-apps", "deploy", "hosting", "agent-skills", "full-stack"]
+}
